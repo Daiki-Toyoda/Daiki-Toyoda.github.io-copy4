@@ -1,0 +1,135 @@
+/*共通*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+p {
+  margin-top: 0;
+}
+
+/*header*/
+
+header {
+ position: fixed;
+ top:0;
+ width: 100%;
+ background-color: white;
+ z-index: 10;
+}
+h1 {
+  font-size: 16px;
+}
+
+.container {
+  padding:15px 10px;
+  height:75px;
+}
+
+.header-logo {
+  width:130px
+}
+
+.header-title {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  top: -9px;
+}
+
+.header-contact {
+  float: right;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: rgb(218,107,100);
+  color:white;
+  padding: 11px 30px;
+  border-radius: 25px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+
+.header-contact:hover {
+  background-color: #b84940;
+}
+
+
+
+/*main*/
+.main {
+  padding-top: 75px;
+}
+
+.section1 {
+  background-image: url(../img/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.section1 .container {
+  padding: 105px 0;
+  height: 500px;
+  text-align: center;
+}
+.section1 p {
+  font-size:24px;
+  font-weight:600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+
+
+.mainlogo {
+  width:330px;
+  margin-bottom: 10px;
+}
+
+.section2 {
+  height: 470px;
+  background-color:rgb(235,185,77);
+  color:white;
+}
+
+.section2 .container{
+  text-align: center;
+  padding:30px 150px;
+}
+
+.section2 p {
+  font-weight: 600;
+}
+
+.sns {
+  display: inline-block;
+}
+
+.main-contact {
+  background-color: rgb(218,107,100);
+  padding: 32px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  top:-10px;
+}
+
+.section2 p {
+  line-height: 10px;
+}
+
+.lessonmoney {
+  background-color:rgb(249,242,244);
+  color:rgb(199,37,78);
+  padding: 10px 0;
+  margin-bottom: 31px;
+  display:inline-block;
+  border-radius: 10px;
+  font-weight: 600;
+}
